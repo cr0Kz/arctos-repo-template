@@ -1,0 +1,32 @@
+name: Pull Request
+description: Use this template when submitting a pull request
+title: "[PR] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Description
+        Please describe the changes made in this PR.
+
+  - type: textarea
+    id: related_issue
+    attributes:
+      label: Related Issue
+      description: Link to the related issue, if applicable.
+      placeholder: "Issue #123"
+  
+  - type: textarea
+    id: how_tested
+    attributes:
+      label: How Has This Been Tested?
+      description: Please describe how you tested your changes.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (if applicable)
+      description: Add any relevant screenshots or visuals.

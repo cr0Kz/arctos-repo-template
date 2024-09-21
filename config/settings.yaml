@@ -1,0 +1,4 @@
+# Configuration settings for the Arctos project
+
+project_name: "Arctos"
+version: "1.0.0"
